@@ -27,7 +27,8 @@ export { default as Small } from "./components/Typography/Small.js";
 export { default as Success } from "./components/Typography/Success.js";
 export { default as Warning } from "./components/Typography/Warning.js";
 
-export { default as materialKitReact } from "./assets/jss/material-kit-react.js";
+import * as materialKitReact from "./assets/jss/material-kit-react.js";
+export { materialKitReact };
 export { default as badgeStyle } from "./assets/jss/material-kit-react/components/badgeStyle.js";
 export { default as buttonStyle } from "./assets/jss/material-kit-react/components/buttonStyle.js";
 export { default as cardBodyStyle } from "./assets/jss/material-kit-react/components/cardBodyStyle.js";
